@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body style="background-color: lightcyan;">
+    <h1>Esta pagina servira de perfil y se rellenara con datos personales.</h1>
+    <input type="text" name="estudiante" id="campo_estudiante" value="Estudiante" readonly>
+        <br>
+        <br>
+    <label for="campo_nombre_estudiante">Nombre: </label>
+    <input type="text" name="nombre_estudiante" id="campo_nombre_estudiante" placeholder="Ingrese su nombre">
+        <br>
+        <br>
+    <label for="campo_mail_estudiante">Email: </label>
+    <input type="email" name="mail_estudiante" id="campo_mail_estudiante" placeholder="Ingrese su correo electronico">
+        <br>
+        <br>
+    <label for="campo_edad_estudiante">Edad: </label>
+    <input type="number" name="edad_estudiante" id="campo_edad_estudiante" placeholder="Ingrese su edad">
+        <br>
+        <br>
+    <label for="campo_nacionalidad_estudiante">Seleccione: </label>
+    <select name="nacionalidad_estudiante" id="campo_nacionalidad_estudiante">
+        <option value="Nacionalidad" hidden>Nacionalidad</option>
+        <option value="Argentino">Argentino</option>
+        <option value="Peruano">Peruano</option>
+        <option value="Paraguayo">Paraguayo</option>
+        <option value="Boliviano">Boliviano</option>
+        <option value="Español">Español</option>
+        <option value="Otro">Otro</option>
+    </select>
+    <br>
+    <br>
+    <label for="campo_condicion_laboral">Seleccione: </label>
+    <select name="condicion_laboral" id="campo_condicion_laboral">
+        <option value="Condicion laboral" hidden>Condicion laboral</option>
+        <option value="En busqueda">En busqueda</option>
+        <option value="Part time">Trabajo part time</option>
+        <option value="Full time">Trabajo full time</option>
+        <option value="Desempleado">Desempleado</option>
+    </select>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <h2>Gustos personales</h2>
+    <label for="campo_gustos_musicales">Gustos musicales: </label>
+    <input type="text" name="gustos_musicales" id="campo_gustos_musicales" placeholder="Ingrese su musica favorita">
+    <br>
+    <br>
+    <label for="campo_comidas_favoritas">Comida favorita: </label>
+    <select name="comidas_favoritas" id="campo_comidas_favoritas">comida favorita
+        <option value="Comida favorita" hidden>Comida favorita</option>
+        <option value="milanesa">milanesa</option>
+        <option value="empanada">empanada</option>
+        <option value="pizza">pizza</option>
+        <option value="asado">asado</option>
+        <option value="pastas">pastas</option>
+        <option value="pastel de carne">pastel de carne</option>
+        <option value="otra">otra</option>
+    </select>
+    <br>
+    <br>
+    <label for="campo_recordar_datos_perfil">Recordar datos: </label>
+    <input type="checkbox" name="recordar_datos_perfil" id="campo_recordar_datos_perfil">
+    <br>
+    <br>
+    <label for="boton_enviar_formulario_perfil">Completar formulario: </label>
+    <button type="submit" name="enviar_formulario_perfil" id="boton_enviar_formulario_perfil">Enviar formulario</button>
+    <hr>
+    <hr>
+    <h3>Volver a la pagina principal</h3>
+    <a href="../segundo_trabajo.html">Volver</a>
+</body>
+</html>
