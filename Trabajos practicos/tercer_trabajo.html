@@ -5,88 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tercer página</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #aaaaaa;
-        }
-
-        div.container {
-            overflow: auto;
-        }
-
-        header {
-            background-color: #e5e5e5;
-            padding: 15px;
-            text-align: center
-        }
-
-        nav {
-            float: left;
-            width: 20%;
-            text-align: center;
-        }
-
-        nav ul {
-            padding-left: 0px;
-        }
-
-        nav li {
-            list-style: none;
-        }
-
-        nav li a {
-            background-color: #e5e5e5;
-            padding: 8px;
-            margin-top: 7px;
-            display: block;
-            width: 100%;
-            color: black;
-            font-weight: 700;
-        }
-
-        main {
-            float: left;
-            width: 60%;
-            padding: 0 20px;
-        }
-
-        .right {
-            background-color: #e5e5e5;
-            float: left;
-            width: 20%;
-            margin-top: 7px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #e5e5e5;
-            text-align: center;
-            padding: 10px;
-            margin-top: 7px;
-        }
-
-        /* for mobile phones */
-        @media only screen and (max-width: 620px) {
-
-            nav,
-            main,
-            .right {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
-        <h1> Hola mundo! </h1>
+        <h1> Rosario central </h1>
     </header>
 
     <div class="container">
@@ -94,29 +19,63 @@
         <nav>
             <ul>
                 <li><a href="#">inicio</a></li>
-                <li><a href="#">multimedia</a></li>
-                <li><a href="#">contacto</a></li>
+                <li><a href="paginas/multimedia.html">multimedia</a></li>
+                <li><a href="paginas/contact.html">contacto</a></li>
             </ul>
         </nav>
         <!-- Contenedor principal -->
         <main>
             <section>
-                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
-                <p>elit. Unde voluptas, magni esse dolor tempore a.
-                    Sunt veritatis enim inventore maiores corrupti libero.
-                    At natus vel doloremque autem voluptatum pariatur quas!
+                <h2>Club Atlético Rosario Central</h2>
+
+                <p> Es una entidad deportiva argentina de la ciudad de Rosario, Santa Fe, cuyo primer equipo de
+                    fútbol masculino participa de la Primera División de Argentina. El club es propietario del
+                    estadio Gigante de Arroyito, donde juega sus partidos como local.
                 </p>
+                <hr>
+                <hr>
+                <h3> Noticias </h3>
+                <article>
+                    <h4>Ariel Holan y el "malentendido" por Jaminton Campaz en Rosario Central:</h4>
+                    <P>"Ya está resuelto"</P>
+                </article>
+                <hr>
+                <article>
+                    <h4>Rosario Central vs Instituto Fecha 14</h4>
+                    <p>Instituto y Rosario Central se enfrentarán en el estadio Gigante de Arroyito el próximo
+                        domingo 20 de abril desde las 20:30 (hora Argentina), en el encuentro correspondiente
+                        a la fecha 14 del torneo Argentina - Torneo Apertura 2025
+                    </p>
+                </article>
+                <hr>
+                <article>
+                    <h4>Rosario Central no pasó del empate ante Platense y no pudo alcanzar a Independiente</h4>
+                    <p> Rosario Central no pudo alcanzar a Independiente. Sin Jaminton Campaz
+                        (en conflicto con la dirigencia), el Canalla empató por 0-0 contra Platense,
+                        en condición de visitante en Vicente López, por la fecha 13 y quedó como escolta del
+                        Rojo en la Zona B del Apertura 2025.
+                    </p>
+                </article>
+            </section>
+            <hr>
+            <hr>
+            <section>
+                <h3>Beneficios de socios</h3>
+                <h4>Ingreso al Estadio Gigante de Arroyito</h4>
+                <h4>Instalaciones</h4>
+                <h4>Deportes amateurs</h4>
+                <h4>Vida institucional</h4>
             </section>
         </main>
         <!-- Contenedor secundario / derecho -->
         <div class="right">
             <h2>info</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur a </p>
+            <p>Fundación: 24 de diciembre de 1889 </p>
         </div>
     </div>
     <!-- Pie de pagina-->
     <footer>
-        <p>0 copyright labcomIT.com</p>
+        <p> Rosario central por Ignacio Fleita</p>
     </footer>
 </body>
 
