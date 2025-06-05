@@ -11,7 +11,8 @@
     align-self: center;
 }
 
-#campoDeTexto{
+#campoDeTexto{   
+    display: grid;
     justify-content: center;
     align-self: center;
 }
@@ -28,6 +29,7 @@
     height: 70px;
     font-size: 25px;
     background-color: aqua;
+    margin: 3px;
 }
 
 #resultado{
