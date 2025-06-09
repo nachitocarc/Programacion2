@@ -54,6 +54,16 @@ function cambiarTexto(){
     texto_inicial.innerText = texto_nuevo.value;
 }
 
+/// punto 7
 
+function mostrarNombre(){
+    const nombre =document.getElementById("mensaje_nombre").value;
+    alert("bienvenido"+ " " + nombre);
+}
+
+/// punto 9
+function cambiarTamaño(){
+    var texto_nuevo =document.getElementById("tamaño_fuente");
+}
 
 

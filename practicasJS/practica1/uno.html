@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practica uno</title>
     <script src="uno.js"></script>
 </head>
+
 <body>
     <h1>Primero</h1>
     <form action="#">
@@ -19,37 +21,56 @@
     <h1>Segundo</h1>
     <div id="contenedor">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui aspernatur quidem eos
-        rerum officia porro vel quas aperiam corrupti doloremque, ex, maxime similique voluptatum, sequi
-        veniam veritatis debitis repellat!</p>
+            rerum officia porro vel quas aperiam corrupti doloremque, ex, maxime similique voluptatum, sequi
+            veniam veritatis debitis repellat!</p>
     </div>
-    <button onclick="javascript:mostrarOcultar();" id="boton"s>ocultar</button>
+    <button onclick="javascript:mostrarOcultar();" id="boton" s>ocultar</button>
+
+    <hr>
 
     <h1>Tercero</h1>
     <form action="#">
         <input type="color" name="color" id="color" onchange="javascript:cambiarColor()">
     </form>
 
+    <hr>
+
     <h1>Cuarto</h1>
     <button onclick="javascript:clickeo()">clickea</button>
     <p id="contador">0</p>
+
+    <hr>
 
     <h1>Quinto</h1>
     <p id="hora">0</p>
     <button onclick="hora()">mostrar hora </button>
 
-    <h1>Sexto</h1>
+    <hr>
 
+    <h1>Sexto</h1>
     <form action="">
         <input type="text" id="texto_nuevo" name="texto_nuevo" value="">
         <p id="texto_inicial">texto inicial</p>
     </form>
     <button onclick="javascript:cambiarTexto()">cambiar texto</button>
 
+    <hr>
+
     <h1>Septimo</h1>
     <form action="">
-        
+        <input type="text" id="mensaje_nombre">
     </form>
+    <br>
+    <button onclick="javascript:mostrarNombre()">mostrar nombre</button>
 
+    <hr>
+
+    <h1>Noveno</h1>
+    <input type="number" id="tamaño_fuente">
+    <p id="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repudiandae ratione vel!
+        Soluta quisquam aperiam provident eum voluptas officia et, voluptate vero? Iusto, iste. Illo atque
+        possimus quae voluptatem alias?</p>
+    <button onclick="javascript:cambiarTamaño()">cambiar tamaño</button>
 
 
 <!-- 
@@ -59,6 +80,7 @@ lar = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 -->
 
 
-    
+
 </body>
+
 </html>
