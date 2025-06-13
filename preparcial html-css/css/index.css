@@ -1,0 +1,133 @@
+* {
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-color: rgb(60, 66, 95);
+    color: white;
+}
+.profile-picture-div{
+    justify-self: center;
+    align-self: center;
+}
+
+.profile-picture {
+    /* Redondear la imagen y darle un tamaño maximo de 200px */
+    max-height: 170px;
+    border-radius: 50%;
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+    justify-self: center;
+    align-self: center;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.seccion-contactame{
+    background: #d1d0d0;
+    padding: 1%;
+}
+
+.datos-personales{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+    "titulo titulo"
+    "linkedin direccion"
+    "linkedin telefono"
+    "linkedin mail"
+    "linkedin nacimiento"
+    "linkedin nacionalidad"
+}
+
+.item-a{
+    grid-area: titulo;
+    background-color: rgb(79, 95, 171);
+    border-radius: 2em;
+    padding: 1%;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+
+.item-b{
+    grid-area: linkedin;
+    background-color: aquamarine;
+    border-radius: 1em;
+    min-height: 20px;
+}
+.item-c{
+    grid-area: direccion;
+    background-color: gainsboro;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+.item-d{
+    grid-area: telefono;
+    background-color: gainsboro;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+.item-e{
+    grid-area: mail;
+    background-color: gainsboro;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+.item-f{
+    grid-area: nacimiento;
+    background-color: gainsboro;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+.item-g{
+    grid-area: nacionalidad;
+    background-color: gainsboro;
+    border-radius: 1em;
+    min-height: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
