@@ -15,7 +15,12 @@ let resultado_pantalla = document.getElementById("resultadito_en_p")
     }
 
 }
-
+function agregarMoneda(){
+    var nombre_moneda = document.getElementById("nombre_moneda_nueva")
+    var valor_moneda = document.getElementById("valor_moneda_nueva")
+    moneda_seleccionada.add(new Option(nombre_moneda.value, nombre_moneda.value))
+    monedas[nombre_moneda.value] = valor_moneda.value   
+}
 function verificarCampos(vPesos, vMoneda){
 
     if(vPesos==""){
