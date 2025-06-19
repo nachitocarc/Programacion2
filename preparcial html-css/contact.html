@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
-    <div>
-        <label for=""></label>
-        <input type="text" placeholder="ingrese nombre">
-        <label for=""></label>
-        <input type="text" placeholder="E-mail">
-        <label for="subject">subject</label>
-        <input type="text" placeholder="ingrese Subject" name="subject">
-        <label for=""></label>
-        <input type="text" placeholder="">
-        <button>Enviar</button>
-        <button>Volver</button>
+    <div class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="ingrese nombre..." name="nombre">
+        <p></p>
+        <label for="mail">E-mail:</label>
+        <input type="email" placeholder="ingrese e-mail..." name="mail">
+        <p></p>
+        <label for="subject">subject:</label>
+        <input type="text" placeholder="ingrese Subject..." name="subject">
+        <p></p>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" class="mensaje"></textarea>
+        <p></p>
+        <input type="submit" value="Enviar" class="boton_enviar">
+        <p></p>
+        <button class="return" onclick="window.location.href='ignaciofleita.html'">Volver</button>
     </div>
-    
+
 </body>
+
 </html>

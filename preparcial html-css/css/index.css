@@ -59,49 +59,56 @@
     border-radius: 2em;
     padding: 1%;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
+    color: white;
 }
-
 
 .item-b{
     grid-area: linkedin;
     background-color: aquamarine;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 .item-c{
     grid-area: direccion;
     background-color: gainsboro;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 
 .item-d{
     grid-area: telefono;
     background-color: gainsboro;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 
 .item-e{
     grid-area: mail;
     background-color: gainsboro;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 
 .item-f{
     grid-area: nacimiento;
     background-color: gainsboro;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 
 .item-g{
     grid-area: nacionalidad;
     background-color: gainsboro;
     border-radius: 1em;
-    min-height: 20px;
+    min-height: 50px;
+    padding-left: 10px;
 }
 
 .title {
