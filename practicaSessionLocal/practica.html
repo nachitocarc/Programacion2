@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica Session y Local</title>
-    <script src="practica.js"></script>
+    <script src="practica.js" defer></script>
 </head>
 <body>
+    <h2>Primero</h2>
     <label for="ingreso_nombre">Nombre:</label>
     <input type="text" id="ingreso_nombre">
+    <p></p>
     <input type="button" value="guardar_nombre" onclick="guardarNombre()">
+    <p></p>
     <input type="button" value="mostrar_nombre" onclick="recuperarNombre()">
+    <p></p>
+    <hr>
+    <p></p>
+    <h2>Segundo</h2>
+    <p id="contador_visitas">Visitas: 0</p>
+    <p></p>
+    <hr>
+    <p></p>
+    <h2>Tercero</h2>
+    <input type="color" id="color" onchange="cambiarColor()">
+    <p></p>
+    <hr>
+    <p></p>
+
 </body>
 </html>
