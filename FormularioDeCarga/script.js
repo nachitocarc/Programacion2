@@ -1,5 +1,3 @@
-
-
 function mostrarInformacion() {
     let nombre_obtenido = document.getElementById("nombre")
     let edad_obtenida = document.getElementById("edad")
@@ -34,7 +32,6 @@ function mostrarInformacion() {
 
 
     document.getElementById("contenedor_form").style.display = "none";
-
 }
 
 function volver(){

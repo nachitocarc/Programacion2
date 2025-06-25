@@ -39,4 +39,19 @@ function cambiarColor() {
     document.body.style.backgroundColor = color_nuevo;
 }
 
+/*
+Cuarto
+*/
+function guardarTarea(){
+    let tarea_nueva = document.getElementById("nombre_tarea").value
+    localStorage.setItem("tarea", tarea_nueva)
 
+    
+    let lista = document.getElementById("lista_tareas")
+    var tarea = document.createElement("li")
+    var nombre_de_la_tarea = document.createTextNode(tarea_nueva)
+
+    tarea.appendChild(nombre_de_la_tarea)
+
+    lista.appendChild(tarea)
+}
