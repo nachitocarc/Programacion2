@@ -55,3 +55,50 @@ function guardarTarea(){
 
     lista.appendChild(tarea)
 }
+
+/*
+quinto
+*/
+
+function contadorSegundos(){
+    let contador_de_segundos = document.getElementById("p_segundos")
+    sessionStorage.setItem("segundos_pasados", contador_de_segundos)
+}
+
+/*
+sexto
+*/
+
+function agregarNota(){
+    let nota_nueva = document.getElementById("agregar_nota").value
+    localStorage.setItem("nota", nota_nueva)
+    mostrarNota()
+}
+
+function mostrarNota(){
+    let subir_nota = document.getElementById("p_notas")
+    let nota_recibida = localStorage.getItem("nota")
+    subir_nota.innerHTML = nota_recibida
+}
+
+/*
+septimo
+*/
+function definirEstado(){
+    const estado_checkbox = document.getElementById("checkbox").checked
+    localStorage.setItem("estado", estado_checkbox)
+}
+
+const checkbox = document.getElementById("checkbox");
+checkbox.checked = localStorage.getItem("estado") === "true";
+checkbox.addEventListener("change", definirEstado);
+
+/*
+octavo
+*/
+const mensaje_bienvenida_wacho = localStorage.getItem("mensajeBienvenida")
+    alert(mensaje_bienvenida_wacho)
+function guardarMensaje(){
+    let mensaje_bienvenida = document.getElementById("mensaje_bienvenida").value
+    localStorage.setItem("mensajeBienvenida", mensaje_bienvenida)
+}
