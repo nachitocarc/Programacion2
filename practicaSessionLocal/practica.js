@@ -8,7 +8,7 @@ function guardarNombre(){
 
 function recuperarNombre(){
     const nombre_recibido = localStorage.getItem("nombre")
-    alert(nombre_recibido)
+    alert("nombre: " + nombre_recibido)
 }
 
 /*
@@ -102,3 +102,24 @@ function guardarMensaje(){
     let mensaje_bienvenida = document.getElementById("mensaje_bienvenida").value
     localStorage.setItem("mensajeBienvenida", mensaje_bienvenida)
 }
+
+/*
+noveno
+*/
+var items = []
+
+function guardarItem(){
+    let item_nuevo = document.getElementById("nombre_item").value
+
+    if (item_nuevo.length > 0 && item_nuevo !== "null"){
+        items.push(item_nuevo)
+        localStorage.setItem("items_compra", JSON.stringify(items))}
+    
+    let lista_compras = document.getElementById("lista_compras")
+    var item = document.createElement("li")
+    var nombre_del_item = document.createTextNode(item_nuevo)
+
+    item.appendChild(nombre_del_item)
+    lista_compras.appendChild(item)
+}
+
