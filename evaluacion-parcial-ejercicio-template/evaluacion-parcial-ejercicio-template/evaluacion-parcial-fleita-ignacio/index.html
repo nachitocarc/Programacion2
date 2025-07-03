@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LC2 - Examen Parcial - CV Nombre Apellido</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav>
+      <ul>
+        <li><a href="#article-secciones-resumen">Resumen</a></li>
+        <li><a href="#article-secciones-experiencia">Experiencia</a></li>
+        <li><a href="#article-secciones-conocimientos">Conocimientos</a></li>
+        <li><a href="#footer-contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="section-main-image">
+      <!-- full width imagen -->
+      <img src="images/foto_nacho.jpg" alt="" class="profile-picture">
+      <h1>Ignacio Fleita</h1>
+      <h2>Pochoclero</h2>
+    </section>
+    <section id="section-secciones">
+      <div class="container" >
+        <article id="article-secciones-resumen" class="article-section-secciones">
+          <h2>Resumen</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea saepe aliquam iste nihil,
+            voluptates nesciunt dolorum enim, nisi alias, iure in unde sit? Veritatis nemo eveniet 
+            ullam accusantium distinctio quasi.
+          </p>
+        </article>
+        <article id="article-secciones-experiencia" class="article-section-secciones">
+          <h2>Experiencia</h2>
+          <div class="list-wrapper-experiencia">
+            <ul class="list-experiencia">
+              <!--Flexbox list item-->
+              <li class="list-item-experiencia">
+                <div class="list-item__image-experiencia">
+                  <img src="images/project-1.jpg" alt="Nombre empresa">
+                </div>
+                <div class="list-item__content-experiencia">
+                  <h4>pochoclera de la plaza</h4>
+                  <h6>2022-2025</h6>
+                  <h5>rol</h5>
+                  <p>El genio que hace todo, copos de nieve, pororo y atiendo de forma muuuuy amable</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </article>
+        <article id="article-secciones-conocimientos">
+          <h2>Conocimientos</h2>
+          <div class="contenedor-conocimientos">
+            <div class="card-conocimientos">
+              <div class="title-conocimientos">BOX1111111111</div>
+              <div class="cuerpo-conocimientos">
+                <p>Conocimiento 1</p>
+              </div>
+              <div class="pie-conocimientos">pie 1</div>
+            </div>
+            <div class="card-conocimientos">
+              <div class="title-conocimientos">BOX2</div>
+              <div class="cuerpo-conocimientos">
+                <p>Conocimiento 2</p>
+              </div>
+              <div class="pie-conocimientos">pie 2</div>
+            </div>
+            <div class="card-conocimientos">
+              <div class="title-conocimientos">BOX3</div>
+              <div class="cuerpo-conocimientos">
+                <p>Conocimiento 3</p>
+              </div>
+              <div class="pie-conocimientos">el pie 3</div>
+            </div>
+          </div>
+        </article>
+
+        <article id="article-secciones-recomendaciones">
+          <h2>Recomendaciones</h2>
+          <p>Tiene alguna recomendación para hacer:</p>
+          <div class="nav-datos" id="div_recomendaciones">
+            <div class="datos ampliar2 titulo">
+              <form action="#">
+                <table>
+                  <tr>
+                    <td>
+                      <label for="name">Su nombre:</label>
+                      <br>
+                      <input type="text" name="name" id="name_datos" class="clsinput" />
+                      <br><br>
+                      <label for="mensaje">Su recomendación:</label>
+                      <br>
+                      <textarea id="mensaje" name="mensaje" rows="5" cols="100%" class="clsinput"></textarea>
+                    </td>
+                    <td><input type="button" value="apreta" class="clsbuttom" onclick="enviarDatos()"></td>
+                  </tr>
+                </table>
+
+              </form>
+            </div>
+            <div class="datos detalle1" >
+              <p class="title"><b>Ignacio Fleita</b></p>
+              <p>10/06/2025 11:20:50</p>
+            </div>
+            <div class="datos detalle2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus vel neque debitis eum quam
+                ipsam, repellendus possimus cum dolorum molestiae libero ab sunt quia porro minima, eligendi natus modi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus vel neque debitis eum quam
+                ipsam, repellendus possimus cum dolorum molestiae libero ab sunt quia porro minima, eligendi natus modi.
+              </p>
+          </div>
+        </article>
+    </section>
+  </main>
+  <footer id="footer-contacto">
+    <div class="container-footer">
+      <h2>Datos de Contacto</h2>
+      <div class="contact-data">
+        <div class="contact-info">
+          <ul>
+            <li><b>FECHA DE NAC.:</b></li>
+          </ul>
+        </div>
+        <div class="contact-mapa">
+          <iframe src="" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+          <form action="#" name="frmContacto">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <br>
+              <input type="" />
+            </div>
+            <div class="form-control">
+              <label for="phone">Teléfono</label>
+              <br>
+              <input type="" name="" />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <br>
+              <input type="" name="" id="" />
+            </div>
+            <div class="form-control">
+              <label for="mensaje">Mensaje</label>
+              <br>
+              <textarea id="" name="" rows="5" cols="33"></textarea>
+            </div>
+            <a href="">Enviar</a>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
